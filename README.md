@@ -43,6 +43,8 @@ Person re-identification has drawn intensive attention in the computer vision so
 
 # [VIPeR](https://vision.soe.ucsc.edu/node/178)
 This dataset contains two cameras, each of which captures one image per person. It also provides the viewpoint angle of each image. Although it has been tested by many researchers, it's still one of the most challenging datasets. Ryan Layne provides the attribute annotation of VIPeR here.
+
+![img](./imgs/eg_viper.png)
 >D. Gray, and H. Tao, "Viewpoint Invariant Pedestrian Recognition with an Ensemble of Localized Features," in Proc. European Conference on Computer Vision (ECCV), 2008.
 # [ETH1,2,3](http://homepages.dcc.ufmg.br/~william/datasets.html)
 Different from other datasets collecting images from multiple cameras, ETHZ collects images from a moving camera. Although the viewpoint variance is relatively small, it does have considerable illumination variance, scale variance and occlusion.
