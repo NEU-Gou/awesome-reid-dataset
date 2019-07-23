@@ -2,6 +2,7 @@
 Person re-identification has drawn intensive attention in the computer vision society in recent decades. As far as we know, this page collects all public datasets that have been tested by person re-identification algorithms. If you use any of them, please refer to the original licence. If you have any suggestions or you want to include your dataset here, please open an issue or pull request. 
 
 #### News
+  - LPW, PKU Sketch-ReID and ThermalWorld added!
   - Moved to Github!
   - RPIfield added!
   - MSMT17 data added.
