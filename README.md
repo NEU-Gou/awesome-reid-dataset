@@ -41,7 +41,7 @@ Person re-identification has drawn intensive attention in the computer vision so
 | [MSMT17](#msmt17)                    | 2018             | 4101         | 15          | 126441   | Faster RCNN                | Vary      | ✔          |                    |                          |
 | [RPIfield](#rpifield)   | 2018      | 112       | 12        | 601,581       | ACF       | Vary            | ✔                 |        ✔     |   
 | [LPW](#lpw)             | 2018      | 2,731     | 3,4,4     | 592,438       | Detector+NN+Hand       | -            | ✔                 |        ✔     |          
-| [PKU SketchRe-ID](#pku sketchre-id)             | 2018      | 200           | 2       | 400          | Hand       | -            |                 |            |
+| [PKU SketchRe-ID](#pku-sketchre-id)             | 2018      | 200           | 2       | 400          | Hand       | -            |                 |            |
 | [ThermalWorld](#thermalworld)             | 2018      | 516           | 20       | 15,118          | Hand       | -            |                 |            |
 
 
@@ -199,14 +199,17 @@ RPIfield is a new re-id dataset, which provides explicit time-stamp information 
 # [LPW](http://liuyu.us/dataset/lpw/index.html)
 Labeled Pedestrian in the Wild is a video based re-id dataset. It's collected in three scenes on the street. The identities include adults and children and the poses vary from running to cycling. The dataset has been manually cleaned up to remove failed detections and tracklets.
 
+![img](./imgs/eg_lpw.png)
 >Guanglu Song, Biao Leng, Yu Liu, Congrui Hetang, Shaofan Cai. "Region-based Quality Estimation Network for Large-Scale Person Re-identiﬁcation." AAAI (2018)
 
 # [PKU Sketch-ReID](https://www.pkuml.org/resources/pkusketchreid-dataset.html)
 This dataset contains 200 persons, each of which has one sketch and two photos. Photos of each person were captured during daytime by two cross-view cameras. The raw images (or video frames) are cropped manually to make sure that every photo contains one specific person. There are 5 artists to draw all persons’ sketches and every artist has his own painting style. 
 
+![img](./imgs/eg_pkusketch.png)
 >Lu Pang, Yaowei Wang, Yi-Zhe Song, Tiejun Huang, Yonghong Tian. "Cross-Domain Adversarial Feature Learning for Sketch Re-identification"; ACM Multimedia (2018) 
 
 # [ThermalWorld](http://www.zefirus.org/ThermalGAN/)
 This is a cross-modality re-id dataset with thermal-color image pairs. Pixel level annotations are provided. 
 
+![img](./imgs/eg_thermalworld.jpg)
 >Kniaz, Vladimir V. and Knyaz, Vladimir A. and Hladuvka, Jiri and Kropatsch, Walter G. and Mizginov, Vladimir A. "ThermalGAN: Multimodal Color-to-Thermal Image Translation for Person Re-Identification in Multispectral Dataset." ECCV Workshop (2018)
