@@ -1,3 +1,4 @@
+**[NOTE]** It looks like some dataset links are expired. I'm trying my best to recover them. If you happen to know the latest links, PRs are welcomed. 
 # The Awesome Person Re-Identification Datasets
 Person re-identification has drawn intensive attention in the computer vision society in recent decades. As far as we know, this page collects all public datasets that have been tested by person re-identification algorithms. If you use any of them, please refer to the original licence. If you have any suggestions or you want to include your dataset here, please open an issue or pull request. 
 
