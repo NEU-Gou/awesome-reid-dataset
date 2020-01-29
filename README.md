@@ -67,7 +67,7 @@ GRID is collected by 8 disjoint cameras in a busy underground station. Each iden
 
 ![img](./imgs/eg_GRID.png)
 >Loy, C. C., Liu, C., & Gong, S. (2013, September). Person re-identification by manifold ranking. In 2013 IEEE International Conference on Image Processing (pp. 3567-3571). IEEE.
-# [CAVIAR4ReID](http://www.lorisbazzani.info/caviar4reid.html)
+# [CAVIAR4ReID](https://lorisbaz.github.io/caviar4reid.html)
 This dataset is extracted from a multi-target tracking dataset CAVIAR, which is collected in a shopping mall by two surveillance cameras with overlapped view field. Among 72 identities, 50 of them have images from two camera views and the rest 22 only from one camera. Images for each identity are carefully selected to maximize the resolustion variance.
 
 ![img](./imgs/eg_CAVIAR.png)
@@ -146,7 +146,7 @@ CASIA dataset was created in 2005 and originally used to test gait recognition a
 ![img](./imgs/eg_CASIA_bag.png)
 ![img](./imgs/eg_CASIA_coat.png)
 ![img](./imgs/eg_CASIA.png)
-# [Market1501](http://www.liangzheng.org/Project/project_reid.html)
+# [Market1501](http://www.liangzheng.com.cn/Project/project_reid.html)
 It contains a large number of identities and each identity has several images from six dis-joint cameras. This dataset also includes 2793 false alarms from DPM as distractors to mimic the real scenario. Quality of the bounding boxes is worse than CUHK03. Later in the ICCV 2015 release version, 500K distractors are integrated to make this dataset really large scale. In the original paper proposed this dataset, the author also used mAP as an evalution criteria to test the algorithms.
 
 ![img](./imgs/eg_market.jpg)
