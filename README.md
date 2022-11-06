@@ -45,8 +45,8 @@ Person re-identification has drawn intensive attention in the computer vision so
 | [LPW](#lpw)             | 2018      | 2,731     | 3,4,4     | 592,438       | Detector+NN+Hand       | -            | ✔                 |        ✔     |          
 | [PKU SketchRe-ID](#pku-sketchre-id)             | 2018      | 200           | 2       | 400          | Hand       | -            |                 |            |
 | [ThermalWorld](#thermalworld)             | 2018      | 516           | 20       | 15,118          | Hand       | -            |                 |            |
-| [SoccerNet-ReID](#soccernet-reid)             | 2022      | 243,432           | -       | 340,993          | Hand       | -            |                 |       ✔     |
-| [DeepSportradar-ReID](#deepsportradar-reid)             | 2022      | 486           | -       | 9529          | Hand       | -            |        ✔         |            |
+| [SoccerNet-ReID](#soccernet-reid)             | 2022      | 243,432           | -       | 340,993          | Hand       | Vary            |                 |       ✔     |
+| [DeepSportradar-ReID](#deepsportradar-reid)             | 2022      | 486           | -       | 9529          | Hand       | Vary            |        ✔         |            |
 
 
 # [VIPeR](https://vision.soe.ucsc.edu/node/178)
