@@ -221,7 +221,7 @@ This is a cross-modality re-id dataset with thermal-color image pairs. Pixel lev
 # [SoccerNet-ReID](https://github.com/SoccerNet/sn-reid)
 The SoccerNet Re-Identification (ReID) dataset is composed of 340.993 soccer players thumbnails extracted from image frames of broadcast videos from 400 games within 6 major leagues. The goal of the challenge is to re-identify soccer players across multiple camera viewpoints depicting the same action during the game.
 
-![img](./imgs/soccernet-reid.png)
+![img](./imgs/soccernet-reid.jpg)
 >Silvio Giancola and Anthony Cioppa and Adrien Deliège and Floriane Magera and Vladimir Somers and Le Kang and Xin Zhou. "SoccerNet 2022 Challenges Results." ACM MMSport Workshop (2022)
 
 # [DeepSportradar-ReID](https://github.com/DeepSportRadar/player-reidentification-challenge)
