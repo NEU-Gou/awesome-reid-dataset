@@ -45,6 +45,8 @@ Person re-identification has drawn intensive attention in the computer vision so
 | [LPW](#lpw)             | 2018      | 2,731     | 3,4,4     | 592,438       | Detector+NN+Hand       | -            | ✔                 |        ✔     |          
 | [PKU SketchRe-ID](#pku-sketchre-id)             | 2018      | 200           | 2       | 400          | Hand       | -            |                 |            |
 | [ThermalWorld](#thermalworld)             | 2018      | 516           | 20       | 15,118          | Hand       | -            |                 |            |
+| [SoccerNet-ReID](#soccernet-reid)             | 2022      | 243,432           | -       | 340,993          | Hand       | Vary            |                 |       ✔     |
+| [DeepSportradar-ReID](#deepsportradar-reid)             | 2022      | 486           | -       | 9529          | Hand       | Vary            |        ✔         |            |
 
 
 # [VIPeR](https://vision.soe.ucsc.edu/node/178)
@@ -215,3 +217,15 @@ This is a cross-modality re-id dataset with thermal-color image pairs. Pixel lev
 
 ![img](./imgs/eg_thermalworld.jpg)
 >Kniaz, Vladimir V. and Knyaz, Vladimir A. and Hladuvka, Jiri and Kropatsch, Walter G. and Mizginov, Vladimir A. "ThermalGAN: Multimodal Color-to-Thermal Image Translation for Person Re-Identification in Multispectral Dataset." ECCV Workshop (2018)
+
+# [SoccerNet-ReID](https://github.com/SoccerNet/sn-reid)
+The SoccerNet Re-Identification (ReID) dataset is composed of 340.993 soccer players thumbnails extracted from image frames of broadcast videos from 400 games within 6 major leagues. The goal of the challenge is to re-identify soccer players across multiple camera viewpoints depicting the same action during the game.
+
+![img](./imgs/soccernet-reid.jpg)
+>Silvio Giancola and Anthony Cioppa and Adrien Deliège and Floriane Magera and Vladimir Somers and Le Kang and Xin Zhou. "SoccerNet 2022 Challenges Results." ACM MMSport Workshop (2022)
+
+# [DeepSportradar-ReID](https://github.com/DeepSportRadar/player-reidentification-challenge)
+The DeepSportradar Re-Identification (ReID) dataset comes from short trackking sequences of basketball games, each sequence is composed by 20 frames. For the validation and test sets, the query images are persons taken at the first frame, while the gallery images are identities taken from the 2nd to the last frame.
+
+![img](./imgs/deepsportradar-reid.png)
+>Gabriel Van Zandycke and Vladimir Somers and Maxime Istasse and Carlo Del Don and Davide Zambrano. "DeepSportradar-v1: Computer Vision Dataset for Sports Understanding with High Quality Annotations." ACM MMSport Workshop (2022)
