@@ -47,6 +47,7 @@ Person re-identification has drawn intensive attention in the computer vision so
 | [ThermalWorld](#thermalworld)             | 2018      | 516           | 20       | 15,118          | Hand       | -            |                 |            |
 | [SoccerNet-ReID](#soccernet-reid)             | 2022      | 243,432           | -       | 340,993          | Hand       | Vary            |                 |       ✔     |
 | [DeepSportradar-ReID](#deepsportradar-reid)             | 2022      | 486           | -       | 9529          | Hand       | Vary            |        ✔         |            |
+| [LaST](#last)                                               | 2022 | 10862 | - | 228k | Detector+Hand | Vary | | 
 
 
 # [VIPeR](https://vision.soe.ucsc.edu/node/178)
@@ -229,3 +230,9 @@ The DeepSportradar Re-Identification (ReID) dataset comes from short trackking s
 
 ![img](./imgs/deepsportradar-reid.png)
 >Gabriel Van Zandycke and Vladimir Somers and Maxime Istasse and Carlo Del Don and Davide Zambrano. "DeepSportradar-v1: Computer Vision Dataset for Sports Understanding with High Quality Annotations." ACM MMSport Workshop (2022)
+
+# [LaST](https://github.com/shuxjweb/last)
+LaST is a large-scale dataset with more than 228k pedestrian images. It is used to study the scenario that pedestrians have a large activity scope and time span. Although collected from movies, we have selected suitable frames and labeled them as carefully as possible. Besides the identity label, we also labeled the clothes of pedestrians in the training set.
+![img](./imgs/last.jpg)
+> Xiujun Shu and Xiao Wang and Xianghao Zang and Shiliang Zhang and Yuanqi Chen and Ge Li and Qi Tian
+"Large-Scale Spatio-Temporal Person Re-Identification: Algorithms and Benchmark" IEEE Transactions on Circuits and Systems for Video Technology (2022)
