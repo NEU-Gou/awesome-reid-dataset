@@ -48,6 +48,7 @@ Person re-identification has drawn intensive attention in the computer vision so
 | [SoccerNet-ReID](#soccernet-reid)             | 2022      | 243,432           | -       | 340,993          | Hand       | Vary            |                 |       ✔     |
 | [DeepSportradar-ReID](#deepsportradar-reid)             | 2022      | 486           | -       | 9529          | Hand       | Vary            |        ✔         |            |
 | [LaST](#last)                                               | 2022 | 10862 | - | 228k | Detector+Hand | Vary | | 
+| [MALS](#mals)                | 2023             | 1,510,330         | Synthetic           | 1,510,330    | BLIP                   | Vary    |            |                    |                          |
 
 
 # [VIPeR](https://vision.soe.ucsc.edu/node/178)
@@ -236,3 +237,9 @@ LaST is a large-scale dataset with more than 228k pedestrian images. It is used 
 ![img](./imgs/last.jpg)
 > Xiujun Shu and Xiao Wang and Xianghao Zang and Shiliang Zhang and Yuanqi Chen and Ge Li and Qi Tian
 "Large-Scale Spatio-Temporal Person Re-Identification: Algorithms and Benchmark" IEEE Transactions on Circuits and Systems for Video Technology (2022)
+
+# [MALS](https://github.com/Shuyu-XJTU/APTM)
+MALS is a large Multi-Attribute and Language Search dataset for text-based person retrieval. MALS contains 1,510,330 image-text pairs, which is about 37.5 × larger than prevailing CUHK-PEDES, and all images are annotated with 27 attributes. Considering the privacy concerns and annotation costs, we leverage the off-the-shelf diffusion models to generate the dataset. 
+![img](./imgs/mals.jpg)
+> Shuyu Yang and Yinan Zhou and Yaxiong Wang and Yujiao Wu and Li Zhu and Zhedong Zheng.
+"Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark" Proceedings of the 2023 {ACM} on Multimedia Conference
