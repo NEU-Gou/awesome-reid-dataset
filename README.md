@@ -248,6 +248,7 @@ MALS is a large Multi-Attribute and Language Search dataset for text-based perso
 
 # [ENTIRe-ID](https://serdaryildiz.github.io/ENTIRe-ID/)
 The ENTIRe-ID dataset is an extensive collection comprising over 4.45 million images from 37 different cameras in varied environments. This dataset is uniquely designed to tackle the challenges of domain variability and model generalization, areas where existing datasets for person re-identification have fallen short. The ENTIRe-ID dataset stands out for its coverage of a wide array of real-world scenarios, encompassing various lighting conditions, angles of view, and diverse human activities. This design ensures a realistic and robust training platform for ReID models.
+
 ![img](./imgs/eg_entireid.png)
 > Serdar Yıldız and Ahmet Nezih Kasım.
 "ENTIRe-ID: An Extensive and Diverse Dataset for Person Re-Identification" 2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG)
