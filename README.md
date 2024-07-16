@@ -3,6 +3,7 @@
 Person re-identification has drawn intensive attention in the computer vision society in recent decades. As far as we know, this page collects all public datasets that have been tested by person re-identification algorithms. If you use any of them, please refer to the original licence. If you have any suggestions or you want to include your dataset here, please open an issue or pull request. 
 
 #### News
+  - ENTIRe-ID dataset added.
   - LPW, PKU Sketch-ReID and ThermalWorld added!
   - Moved to Github!
   - RPIfield added!
@@ -11,44 +12,45 @@ Person re-identification has drawn intensive attention in the computer vision so
   - Our paper on systematic evaluation and benchmark for person re-identification is accepted by T-PAMI! [Arxiv](http://arxiv.org/abs/1605.09653)
   - Airport dataset added.
   
-| Dataset                   | Release time     | # identities | # cameras   | # images | Label method               | Crop size | Multi-shot | Tracking sequences | Full frames availability |
-|---------------------------|------------------|--------------|-------------|----------|----------------------------|-----------|------------|--------------------|--------------------------|
-| [VIPeR](#viper)                     | 2007             | 632          | 2           | 1264     | Hand                       | 128X48    |            |                    |                          |
-| [ETH1,2,3](#eth1,2,3)                  | 2007             | 85, 35, 28     | 1           | 8580     | Hand                       | Vary      | ✔          | ✔                  | ✔                        |
-| [QMUL iLIDS](#qmul-ilids)                | 2009             | 119          | 2           | 476      | Hand                       | Vary      | ✔          |                    |                          |
-| [GRID](#grid)                      | 2009             | 1025         | 8           | 1275     | Hand                       | Vary      |            |                    |                          |
-| [CAVIAR4ReID](#caviar4reid)               | 2011             | 72           | 2           | 1220     | Hand                       | Vary      | ✔          |                    |                          |
-| [3DPeS](#3dpes)                     | 2011             | 192          | 8           | 1011     | Hand                       | Vary      | ✔          |                    | ✔*                       |
-| [PRID2011](#prid2011)                  | 2011             | 934          | 2           | 24541    | Hand                       | 128X64    | ✔          | ✔                  | ✔*                       |
-| [V47](#v47)                       | 2011             | 47           | 2           | 752      | Hand                       | Vary      | ✔          |                    | ✔                        |
-| [WARD](#ward)                      | 2012             | 70           | 3           | 4786     | Hand                       | 128X48    | ✔          | ✔                  |                          |
-| [SAIVT-Softbio](#saivt-softbio)             | 2012             | 152          | 8           | 64472    | Hand                       | Vary      | ✔          | ✔                  | ✔                        |
-| [CUHK01](#cuhk01)                    | 2012             | 971          | 2           | 3884     | Hand                       | 160X60    | ✔          |                    |                          |
-| [CUHK02](#cuhk02)                    | 2013             | 1816         | 10(5 pairs) | 7264     | Hand                       | 160X60    | ✔          |                    |                          |
-| [CUHK03](#cuhk03)                    | 2014             | 1467         | 10(5 pairs) | 13164    | Hand/DPM                   | Vary      | ✔          |                    |                          |
-| [RAiD](#raid)                      | 2014             | 43           | 4           | 6920     | Hand                       | 128X64    | ✔          |                    |                          |
-| [iLIDS-VID](#ilids-vid)                 | 2014             | 300          | 2           | 42495    | Hand                       | Vary      | ✔          | ✔                  |                          |
-| [MPR Drone](#mpr-drone)                 | 2014             | 84           | 1           |          | Pyramid Features(ACF)      | Vary      | ✔          |                    | ✔                        |
-| [HDA Person Dataset](#hda-person-dataset)        | 2014             | 53           | 13          | 2976     | Hand/Pyramid Features(ACF) | Vary      | ✔          | ✔                  | ✔                        |
-| [Shinpuhkan Dataset](#shinpuhkan-dataset)        | 2014             | 24           | 16          |          | Hand                       | 128X48    | ✔          | ✔                  |                          |
-| [CASIA Gait Database B](#casia-gait-database-b)     | 2015(*see below) | 124          | 11          |          | Background subtraction     | Vary      | ✔          | ✔                  | ✔                        |
-| [Market1501](#market1501)                | 2015             | 1501         | 6           | 32217    | Hand/DPM                   | 128X64    | ✔          |                    |                          |
-| [PKU-Reid](#pku-reid)                  | 2016             | 114          | 2           | 1824     | Hand                       | 128X64    |            |                    |                          |
-| [PRW](#prw)                       | 2016             | 932          | 6           | 34304    | Hand                       | vary      | ✔          |                    | ✔                        |
+| Dataset                                                 | Release time     | # identities | # cameras   | # images | Label method               | Crop size | Multi-shot | Tracking sequences | Full frames availability |
+|---------------------------------------------------------|------------------|--------------|-------------|----------|----------------------------|-----------|------------|--------------------|--------------------------|
+| [VIPeR](#viper)                                         | 2007             | 632          | 2           | 1264     | Hand                       | 128X48    |            |                    |                          |
+| [ETH1,2,3](#eth1,2,3)                                   | 2007             | 85, 35, 28   | 1           | 8580     | Hand                       | Vary      | ✔          | ✔                  | ✔                        |
+| [QMUL iLIDS](#qmul-ilids)                               | 2009             | 119          | 2           | 476      | Hand                       | Vary      | ✔          |                    |                          |
+| [GRID](#grid)                                           | 2009             | 1025         | 8           | 1275     | Hand                       | Vary      |            |                    |                          |
+| [CAVIAR4ReID](#caviar4reid)                             | 2011             | 72           | 2           | 1220     | Hand                       | Vary      | ✔          |                    |                          |
+| [3DPeS](#3dpes)                                         | 2011             | 192          | 8           | 1011     | Hand                       | Vary      | ✔          |                    | ✔*                       |
+| [PRID2011](#prid2011)                                   | 2011             | 934          | 2           | 24541    | Hand                       | 128X64    | ✔          | ✔                  | ✔*                       |
+| [V47](#v47)                                             | 2011             | 47           | 2           | 752      | Hand                       | Vary      | ✔          |                    | ✔                        |
+| [WARD](#ward)                                           | 2012             | 70           | 3           | 4786     | Hand                       | 128X48    | ✔          | ✔                  |                          |
+| [SAIVT-Softbio](#saivt-softbio)                         | 2012             | 152          | 8           | 64472    | Hand                       | Vary      | ✔          | ✔                  | ✔                        |
+| [CUHK01](#cuhk01)                                       | 2012             | 971          | 2           | 3884     | Hand                       | 160X60    | ✔          |                    |                          |
+| [CUHK02](#cuhk02)                                       | 2013             | 1816         | 10(5 pairs) | 7264     | Hand                       | 160X60    | ✔          |                    |                          |
+| [CUHK03](#cuhk03)                                       | 2014             | 1467         | 10(5 pairs) | 13164    | Hand/DPM                   | Vary      | ✔          |                    |                          |
+| [RAiD](#raid)                                           | 2014             | 43           | 4           | 6920     | Hand                       | 128X64    | ✔          |                    |                          |
+| [iLIDS-VID](#ilids-vid)                                 | 2014             | 300          | 2           | 42495    | Hand                       | Vary      | ✔          | ✔                  |                          |
+| [MPR Drone](#mpr-drone)                                 | 2014             | 84           | 1           |          | Pyramid Features(ACF)      | Vary      | ✔          |                    | ✔                        |
+| [HDA Person Dataset](#hda-person-dataset)               | 2014             | 53           | 13          | 2976     | Hand/Pyramid Features(ACF) | Vary      | ✔          | ✔                  | ✔                        |
+| [Shinpuhkan Dataset](#shinpuhkan-dataset)               | 2014             | 24           | 16          |          | Hand                       | 128X48    | ✔          | ✔                  |                          |
+| [CASIA Gait Database B](#casia-gait-database-b)         | 2015(*see below) | 124          | 11          |          | Background subtraction     | Vary      | ✔          | ✔                  | ✔                        |
+| [Market1501](#market1501)                               | 2015             | 1501         | 6           | 32217    | Hand/DPM                   | 128X64    | ✔          |                    |                          |
+| [PKU-Reid](#pku-reid)                                   | 2016             | 114          | 2           | 1824     | Hand                       | 128X64    |            |                    |                          |
+| [PRW](#prw)                                             | 2016             | 932          | 6           | 34304    | Hand                       | vary      | ✔          |                    | ✔                        |
 | [Large scale person search](#large-scale-person-search) | 2016             | 11934s       | -           | 34574    | Hand                       | vary      |            |                    | ✔                        |
-| [MARS](#mars)                      | 2016             | 1261         | 6           | 1191003  | DPM+GMMCP                  | 256X128   | ✔          | ✔                  |                          |
-| [DukeMTMC-reID](#dukemtmc-reid/dukemtmc4reid)             | 2017             | 1812         | 8           | 36441    | Hand                       | Vary      | ✔          |                    | ✔                        |
-| [DukeMTMC4ReID](#dukemtmc-reid/dukemtmc4reid)             | 2017             | 1852         | 8           | 46261    | Doppia                     | Vary      | ✔          |                    | ✔                        |
-| [Airport](#airport)                   | 2017             | 9651         | 6           | 39902    | ACF                        | 128X64    | ✔          |                    |                          |
-| [MSMT17](#msmt17)                    | 2018             | 4101         | 15          | 126441   | Faster RCNN                | Vary      | ✔          |                    |                          |
-| [RPIfield](#rpifield)   | 2018      | 112       | 12        | 601,581       | ACF       | Vary            | ✔                 |        ✔     |   
-| [LPW](#lpw)             | 2018      | 2,731     | 3,4,4     | 592,438       | Detector+NN+Hand       | -            | ✔                 |        ✔     |          
-| [PKU SketchRe-ID](#pku-sketchre-id)             | 2018      | 200           | 2       | 400          | Hand       | -            |                 |            |
-| [ThermalWorld](#thermalworld)             | 2018      | 516           | 20       | 15,118          | Hand       | -            |                 |            |
-| [SoccerNet-ReID](#soccernet-reid)             | 2022      | 243,432           | -       | 340,993          | Hand       | Vary            |                 |       ✔     |
-| [DeepSportradar-ReID](#deepsportradar-reid)             | 2022      | 486           | -       | 9529          | Hand       | Vary            |        ✔         |            |
-| [LaST](#last)                                               | 2022 | 10862 | - | 228k | Detector+Hand | Vary | | 
-| [MALS](#mals)                | 2023             | 1,510,330         | Synthetic           | 1,510,330    | BLIP                   | Vary    |            |                    |                          |
+| [MARS](#mars)                                           | 2016             | 1261         | 6           | 1191003  | DPM+GMMCP                  | 256X128   | ✔          | ✔                  |                          |
+| [DukeMTMC-reID](#dukemtmc-reid/dukemtmc4reid)           | 2017             | 1812         | 8           | 36441    | Hand                       | Vary      | ✔          |                    | ✔                        |
+| [DukeMTMC4ReID](#dukemtmc-reid/dukemtmc4reid)           | 2017             | 1852         | 8           | 46261    | Doppia                     | Vary      | ✔          |                    | ✔                        |
+| [Airport](#airport)                                     | 2017             | 9651         | 6           | 39902    | ACF                        | 128X64    | ✔          |                    |                          |
+| [MSMT17](#msmt17)                                       | 2018             | 4101         | 15          | 126441   | Faster RCNN                | Vary      | ✔          |                    |                          |
+| [RPIfield](#rpifield)                                   | 2018             | 112          | 12          | 601,581       | ACF       | Vary            | ✔                 |        ✔     |   
+| [LPW](#lpw)                                             | 2018             | 2,731        | 3,4,4       | 592,438       | Detector+NN+Hand       | -            | ✔                 |        ✔     |          
+| [PKU SketchRe-ID](#pku-sketchre-id)                     | 2018             | 200          | 2           | 400          | Hand       | -            |                 |            |
+| [ThermalWorld](#thermalworld)                           | 2018             | 516          | 20          | 15,118          | Hand       | -            |                 |            |
+| [SoccerNet-ReID](#soccernet-reid)                       | 2022             | 243,432      | -           | 340,993          | Hand       | Vary            |                 |       ✔     |
+| [DeepSportradar-ReID](#deepsportradar-reid)             | 2022             | 486          | -           | 9529          | Hand       | Vary            |        ✔         |            |
+| [LaST](#last)                                           | 2022             | 10862        | -           | 228k | Detector+Hand | Vary | | 
+| [MALS](#mals)                                           | 2023             | 1,510,330    | Synthetic   | 1,510,330    | BLIP                   | Vary    |            |                    |                          |
+| [ENTIRe-ID](#entire-id)                                 | 2024             | 13,540       | 37          | 4.45M    | Detector+Hand                    | Vary    |      ✔      |         ✔           |                          |
 
 
 # [VIPeR](https://vision.soe.ucsc.edu/node/178)
@@ -243,3 +245,9 @@ MALS is a large Multi-Attribute and Language Search dataset for text-based perso
 ![img](./imgs/mals.jpg)
 > Shuyu Yang and Yinan Zhou and Yaxiong Wang and Yujiao Wu and Li Zhu and Zhedong Zheng.
 "Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark" Proceedings of the 2023 {ACM} on Multimedia Conference
+
+# [ENTIRe-ID](https://serdaryildiz.github.io/ENTIRe-ID/)
+The ENTIRe-ID dataset is an extensive collection comprising over 4.45 million images from 37 different cameras in varied environments. This dataset is uniquely designed to tackle the challenges of domain variability and model generalization, areas where existing datasets for person re-identification have fallen short. The ENTIRe-ID dataset stands out for its coverage of a wide array of real-world scenarios, encompassing various lighting conditions, angles of view, and diverse human activities. This design ensures a realistic and robust training platform for ReID models.
+![img](./imgs/eg_entireid.png)
+> Serdar Yıldız and Ahmet Nezih Kasım.
+"ENTIRe-ID: An Extensive and Diverse Dataset for Person Re-Identification" 2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG)
