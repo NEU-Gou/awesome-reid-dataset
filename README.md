@@ -52,9 +52,7 @@ Person re-identification has drawn intensive attention in the computer vision so
 | [LaST](#last)                                           | 2022             | 10862        | -           | 228k | Detector+Hand | Vary | | 
 | [MALS](#mals)                                           | 2023             | 1,510,330    | Synthetic   | 1,510,330    | BLIP                   | Vary    |            |                    |                          |
 | [ENTIRe-ID](#entire-id)                                 | 2024             | 13,540       | 37          | 4.45M    | Detector+Hand                    | Vary    |      ✔      |         ✔           |                          |
-| [IUST_PersonReID](#iust-personreid)                     | 2024             | 1,847        | 19          | 117,455     | Hand                     | Vary    |      ✔      |         ✔          |    
-
-
+| [IUST_PersonReID](#iust_personreid)                     | 2024             | 1,847        | 19          | 117,455  | Hand                       | Vary      | ✔          | ✔                  |                         |
 # [VIPeR](https://vision.soe.ucsc.edu/node/178)
 This dataset contains two cameras, each of which captures one image per person. It also provides the viewpoint angle of each image. Although it has been tested by many researchers, it's still one of the most challenging datasets. Ryan Layne provides the attribute annotation of VIPeR here.
 
