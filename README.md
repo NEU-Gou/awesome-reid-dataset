@@ -3,6 +3,7 @@
 Person re-identification has drawn intensive attention in the computer vision society in recent decades. As far as we know, this page collects all public datasets that have been tested by person re-identification algorithms. If you use any of them, please refer to the original licence. If you have any suggestions or you want to include your dataset here, please open an issue or pull request. 
 
 #### News
+  - IUST_PersonReID dataset added.
   - ENTIRe-ID dataset added.
   - LPW, PKU Sketch-ReID and ThermalWorld added!
   - Moved to Github!
@@ -51,8 +52,7 @@ Person re-identification has drawn intensive attention in the computer vision so
 | [LaST](#last)                                           | 2022             | 10862        | -           | 228k | Detector+Hand | Vary | | 
 | [MALS](#mals)                                           | 2023             | 1,510,330    | Synthetic   | 1,510,330    | BLIP                   | Vary    |            |                    |                          |
 | [ENTIRe-ID](#entire-id)                                 | 2024             | 13,540       | 37          | 4.45M    | Detector+Hand                    | Vary    |      ✔      |         ✔           |                          |
-
-
+| [IUST_PersonReID](#iust_personreid)                     | 2024             | 1,847        | 19          | 117,455  | Hand                       | Vary      | ✔          | ✔                  |                         |
 # [VIPeR](https://vision.soe.ucsc.edu/node/178)
 This dataset contains two cameras, each of which captures one image per person. It also provides the viewpoint angle of each image. Although it has been tested by many researchers, it's still one of the most challenging datasets. Ryan Layne provides the attribute annotation of VIPeR here.
 
@@ -252,3 +252,8 @@ The ENTIRe-ID dataset is an extensive collection comprising over 4.45 million im
 ![img](./imgs/eg_entireid.png)
 > Serdar Yıldız and Ahmet Nezih Kasım.
 "ENTIRe-ID: An Extensive and Diverse Dataset for Person Re-Identification" 2024 IEEE 18th International Conference on Automatic Face and Gesture Recognition (FG)
+
+# [IUST_PersonReID](https://computervisioniust.github.io/IUST_PersonReId/)
+The IUST_PersonReId dataset is designed to tackle the challenges of person re-identification in culturally distinct environments, particularly in Islamic regions like Iran. It includes diverse scenarios and challenges featuring modest attire, surveillance camera angles, varying lighting conditions, different camera qualities, seasonal clothing changes, and similar clothing among individuals. This dataset promotes fairness by reducing demographic bias in real-world applications.
+![img](./imgs/eg_IUST_PersonReID.jpg)
+> Moghaddam, A. S., Anvari, F., Haghighi, M. M., Fakhari, M., & Mohammadi, M. R. (2024). IUST_PersonReId: A New Domain in Person Re-Identification Datasets. arXiv preprint arXiv:2412.18874.
