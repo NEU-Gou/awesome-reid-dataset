@@ -3,6 +3,7 @@
 Person re-identification has drawn intensive attention in the computer vision society in recent decades. As far as we know, this page collects all public datasets that have been tested by person re-identification algorithms. If you use any of them, please refer to the original licence. If you have any suggestions or you want to include your dataset here, please open an issue or pull request. 
 
 #### News
+  - Occluded-PoseTrack-ReID dataset added.
   - IUST_PersonReID dataset added.
   - ENTIRe-ID dataset added.
   - LPW, PKU Sketch-ReID and ThermalWorld added!
@@ -53,6 +54,7 @@ Person re-identification has drawn intensive attention in the computer vision so
 | [MALS](#mals)                                           | 2023             | 1,510,330    | Synthetic   | 1,510,330    | BLIP                   | Vary    |            |                    |                          |
 | [ENTIRe-ID](#entire-id)                                 | 2024             | 13,540       | 37          | 4.45M    | Detector+Hand                    | Vary    |      ✔      |         ✔           |                          |
 | [IUST_PersonReID](#iust_personreid)                     | 2024             | 1,847        | 19          | 117,455  | Hand                       | Vary      | ✔          | ✔                  |                         |
+| [Occluded-PoseTrack-ReID](#occluded-posetrack-reid)     | 2024             | 2411         | -           | 31,310   | Hand                       | Vary      | ✔          | ✔                  | ✔                       |
 # [VIPeR](https://vision.soe.ucsc.edu/node/178)
 This dataset contains two cameras, each of which captures one image per person. It also provides the viewpoint angle of each image. Although it has been tested by many researchers, it's still one of the most challenging datasets. Ryan Layne provides the attribute annotation of VIPeR here.
 
@@ -257,3 +259,9 @@ The ENTIRe-ID dataset is an extensive collection comprising over 4.45 million im
 The IUST_PersonReId dataset is designed to tackle the challenges of person re-identification in culturally distinct environments, particularly in Islamic regions like Iran. It includes diverse scenarios and challenges featuring modest attire, surveillance camera angles, varying lighting conditions, different camera qualities, seasonal clothing changes, and similar clothing among individuals. This dataset promotes fairness by reducing demographic bias in real-world applications.
 ![img](./imgs/eg_IUST_PersonReID.jpg)
 > Moghaddam, A. S., Anvari, F., Haghighi, M. M., Fakhari, M., & Mohammadi, M. R. (2024). IUST_PersonReId: A New Domain in Person Re-Identification Datasets. arXiv preprint arXiv:2412.18874.
+
+# [Occluded-PoseTrack-ReID](https://github.com/VlSomers/keypoint_promptable_reidentification)
+Occluded-PoseTrack-ReID (or simply Occ-PTrack) is a multi-person occluded ReID dataset built from the PoseTrack21 benchmark for pose tracking in videos, featuring cross-video identity annotations. Each image crop may feature multiple persons: manually annotated COCO keypoints (i.e. skeleton) are provided for the intended ReID target (i.e. the person to re-identify), but also for the remaining distractors/occluding persons. These keypoints can serve as prompts to instruct the ReID model which person to re-identify. Unlike traditional surveillance-based ReID datasets, Occ-PTrack consists of images from everyday life videos, primarily sports activities. To evaluate performance in multi-person occlusion scenarios, the most cluttered images of each identity in the test set are selected as query samples, with remaining test images as gallery samples. This dataset is particularly challenging as persons within the same video often exhibit high visual similarity, wearing similar sports kits. Additionally, the repository provides keypoint annotations in COCO format for four popular ReID datasets: Market-1501, Occluded-Duke, Occluded-ReID, and Partial-ReID.
+
+![img](./imgs/eg_occ_ptrack.png)
+> Somers, V., Alahi, A., & De Vleeschouwer, C. (2024). Keypoint Promptable Re-Identification. In Computer Vision - ECCV 2024 - 18th European Conference, Milan, Italy (pp. 216-233).
