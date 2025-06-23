@@ -4,6 +4,7 @@ Person re-identification has drawn intensive attention in the computer vision so
 
 #### News
   - Occluded-PoseTrack-ReID dataset added.
+  - LUPerson-T dataset added!
   - IUST_PersonReID dataset added.
   - ENTIRe-ID dataset added.
   - LPW, PKU Sketch-ReID and ThermalWorld added!
@@ -52,6 +53,7 @@ Person re-identification has drawn intensive attention in the computer vision so
 | [DeepSportradar-ReID](#deepsportradar-reid)             | 2022             | 486          | -           | 9529          | Hand       | Vary            |        ✔         |            |
 | [LaST](#last)                                           | 2022             | 10862        | -           | 228k | Detector+Hand | Vary | | 
 | [MALS](#mals)                                           | 2023             | 1,510,330    | Synthetic   | 1,510,330    | BLIP                   | Vary    |            |                    |                          |
+| [LUPerson-T](#luperson-t)                                           | 2023             | -    | -   | 1.3M    | CLIP+Hand             |  Vary    |            |                    |                          |
 | [ENTIRe-ID](#entire-id)                                 | 2024             | 13,540       | 37          | 4.45M    | Detector+Hand                    | Vary    |      ✔      |         ✔           |                          |
 | [IUST_PersonReID](#iust_personreid)                     | 2024             | 1,847        | 19          | 117,455  | Hand                       | Vary      | ✔          | ✔                  |                         |
 | [Occluded-PoseTrack-ReID](#occluded-posetrack-reid)     | 2024             | 2411         | -           | 31,310   | Hand                       | Vary      | ✔          | ✔                  | ✔                       |
@@ -247,6 +249,12 @@ MALS is a large Multi-Attribute and Language Search dataset for text-based perso
 ![img](./imgs/mals.jpg)
 > Shuyu Yang and Yinan Zhou and Yaxiong Wang and Yujiao Wu and Li Zhu and Zhedong Zheng.
 "Towards Unified Text-based Person Retrieval: A Large-scale Multi-Attribute and Language Search Benchmark" Proceedings of the 2023 {ACM} on Multimedia Conference
+
+# [LUPerson-T](https://github.com/ZhiyinShao-H/UniPT/)
+The LUPerson-T dataset is text-labeled variant of LUPerson. LUPerson-T consists of about 1.3M person images along with their corresponding textual descriptions. We use proposed divide-conquer-combine strategy to generate pseudo-texts for person images. LUPerson-T has 14 kinds of attributes with two sets, i.e., the required set (age, gender, upper clothes, lower clothes, action and hairlength) and the optional set (bag, glasses, smoke, hat, cellphone, umbrella, gloves and vehicle). The selected attribute phrases are combined together to produce complete sentences based on pre-defined 456 templates with “blank” positions for phrases, e.g., “The [age] [gender] is [action], wearing [upper clothes] and [lower clothes]. 
+
+![img](./imgs/eg_LUPerson_T.jpg)
+> Shao, Zhiyin, Xinyu Zhang, Changxing Ding, Jian Wang, and Jingdong Wang. "Unified pre-training with pseudo texts for text-to-image person re-identification." In Proceedings of the IEEE/CVF International Conference on Computer Vision, pp. 11174-11184. 2023.
 
 # [ENTIRe-ID](https://serdaryildiz.github.io/ENTIRe-ID/)
 The ENTIRe-ID dataset is an extensive collection comprising over 4.45 million images from 37 different cameras in varied environments. This dataset is uniquely designed to tackle the challenges of domain variability and model generalization, areas where existing datasets for person re-identification have fallen short. The ENTIRe-ID dataset stands out for its coverage of a wide array of real-world scenarios, encompassing various lighting conditions, angles of view, and diverse human activities. This design ensures a realistic and robust training platform for ReID models.
