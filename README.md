@@ -57,6 +57,7 @@ Person re-identification has drawn intensive attention in the computer vision so
 | [ENTIRe-ID](#entire-id)                                 | 2024             | 13,540       | 37          | 4.45M    | Detector+Hand                    | Vary    |      ✔      |         ✔           |                          |
 | [IUST_PersonReID](#iust_personreid)                     | 2024             | 1,847        | 19          | 117,455  | Hand                       | Vary      | ✔          | ✔                  |                         |
 | [Occluded-PoseTrack-ReID](#occluded-posetrack-reid)     | 2024             | 2411         | -           | 31,310   | Hand                       | Vary      | ✔          | ✔                  | ✔                       |
+| [ORBench](#orbench)                                     | 2025             | 1000         | 24           | 45,113   | Hand                       | Vary      |           |                   |                        |
 # [VIPeR](https://vision.soe.ucsc.edu/node/178)
 This dataset contains two cameras, each of which captures one image per person. It also provides the viewpoint angle of each image. Although it has been tested by many researchers, it's still one of the most challenging datasets. Ryan Layne provides the attribute annotation of VIPeR here.
 
@@ -273,3 +274,9 @@ Occluded-PoseTrack-ReID (or simply Occ-PTrack) is a multi-person occluded ReID d
 
 ![img](./imgs/eg_occ_ptrack.png)
 > Somers, V., Alahi, A., & De Vleeschouwer, C. (2024). Keypoint Promptable Re-Identification. In Computer Vision - ECCV 2024 - 18th European Conference, Milan, Italy (pp. 216-233).
+
+# [ORBench](https://github.com/Zplusdragon/ReID5o_ORBench)
+This paper investigate a new challenging problem called Omni Multi-modal Person Re-identification (OM-ReID), which aims to achieve effective retrieval with varying multi-modal queries. To address dataset scarcity, the authors construct ORBench, the first high-quality multi-modal dataset comprising 1,000 unique identities across five modalities: RGB, infrared, color pencil, sketch, and textual description. Moreover, they propose ReID5o, a novel multi-modal learning framework for person ReID. It enables synergistic fusion and cross-modal alignment of arbitrary modality combinations in a single model.
+
+![img](./imgs/orbench.png)
+> Jialong Zuo, Yongtai Deng, Mengdan Tan, Rui Jin, Dongyue Wu, Nong Sang, Liang Pan and Changxin Gao. "ReID5o: Achieving Omni Multi-modal Person Re-identification in a Single Model", The Thirty-ninth Annual Conference on Neural Information Processing Systems, 2025.
